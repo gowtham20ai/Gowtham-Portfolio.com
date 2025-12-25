@@ -16,7 +16,7 @@ const About = () => {
         <p className="font-[Roboto] text-xl w-fit h-fit overflow-hidden  bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text ">
           Hi I am Gowtham B ,a passionate{" "}
           <span className=" font-mono text-3xl text-[#7ca5dd]  ">
-           MERN Full Stack Developer | UI/UX Designer
+           MERN Full Stack Developer - UI/UX Designer
           </span>{" "}
           who has completed a professional internship in full stack development.
           I enjoy creating clean, efficient, and visually appealing web
