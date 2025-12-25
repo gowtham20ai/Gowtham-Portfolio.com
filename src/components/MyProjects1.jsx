@@ -28,7 +28,7 @@ const MyProjects1 = ({image,title,description,t1,t2,t3,t4,site,github}) => {
                     </p>
                 </div>
                 <div className=" mt-5 ">
-                    <div className=" w-fit flex gap-2">
+                    <div className="  flex justify-around gap-1">
                         <p className=" bg-slate-500 py-1 px-2 w-fit bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl">
                             {t1}
                         </p>

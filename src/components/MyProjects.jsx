@@ -67,7 +67,7 @@ const MyProjects = () => {
           My Projects ..
         </h1>
         <div className=" puff-in-center 2xl-container mx-auto ml-5 mr-5" id="MyProject">
-          <div className=" w-[99%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 ">
+          <div className="  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 ">
             {/* 1 */}
 
 
