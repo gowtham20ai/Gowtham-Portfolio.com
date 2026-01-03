@@ -15,7 +15,7 @@ const MyProjects1 = ({image,title,description,t1,t2,t3,t4,site,github}) => {
                         // src="https://ik.imagekit.io/8wxvbajv2/food-logo_878566-147.jpg"
                         src={image}
                         alt="image"
-                        className="rounded-lg  mx-auto h-[180px] w-[400px]"
+                        className="rounded-lg  mx-auto h-[180px] w-[400px] object-cover"
                     />
                 </div>
                 <div className="px-2">
