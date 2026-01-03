@@ -48,7 +48,7 @@ const CardData = [{
   t1: " React",
   t2: "  Node",
   t3: " FireBase",
-  t4: "  API Handling ",
+  t4: "  API ",
   site: "https://health-care-ai-7m6s.vercel.app",
   github: "https://github.com/gowtham20ai/HealthCare.ai",
 
