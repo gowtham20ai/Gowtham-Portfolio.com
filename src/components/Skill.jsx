@@ -1,5 +1,5 @@
 
-  const Skill = () => {
+const Skill = () => {
   return(
     <>
   {/* my section  */}

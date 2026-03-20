@@ -3,12 +3,12 @@
 const Footer = () => {
   return (
     <>
-      <div className="2xl container mx-auto" >
+      <div className="2xl-container mx-auto fade-in-up">
         <div className="w-[80%] mx-auto ">
           <footer className=" md:flex justify-between py-10 " id="Footer">
             <div className="">
-              <p className="font-[Roboto] text-2xl text-white ">
-                © 2025 by Gowtham. All rights reserved.
+              <p className="font-[Roboto] text-2xl text-white scale-in">
+                © 2026 by Gowtham. All rights reserved.
               </p>
             </div>
             <div className=" flex justify-end  md:flex gap-10">
