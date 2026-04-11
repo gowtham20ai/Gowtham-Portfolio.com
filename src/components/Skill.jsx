@@ -149,7 +149,7 @@ const Skill = () => {
           </h1>
         </div>
         <center>
-       <a href="https://ik.imagekit.io/8wxvbajv2/Gowtham_Resume.pdf" download ><p className="py-2 px-3 w-fit text-center bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl
+       <a href="https://ik.imagekit.io/8wxvbajv2/Gowtham_Resume%20(1).pdf" download ><p className="py-2 px-3 w-fit text-center bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl
          " >Download Resume </p></a></center>
       </div>
     </div>
