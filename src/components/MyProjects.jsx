@@ -54,8 +54,8 @@ const MyProjects = () => {
       <h1 className="text-3xl font-[Roboto] text-white ml-20 mt-12 scale-in fade-in-up" id="MyProjects">
         My Projects ..
       </h1>
-      <div className="puff-in-center 2xl-container mx-auto ml-5 mr-5 fade-in-up" id="MyProject">
-        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 stagger-child">
+      <div className="2xl-container mx-auto ml-5 mr-5 fade-in-up" id="MyProject">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 items-stretch stagger-child">
           {CardData.map((items, index) => (
             <div key={index} className="fade-in-up">
               <MyProjects1

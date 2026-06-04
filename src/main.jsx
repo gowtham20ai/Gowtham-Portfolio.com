@@ -7,8 +7,11 @@ import About from './components/About.jsx'
 import MyProjects from './components/MyProjects.jsx'
 import Skill from './components/Skill.jsx'
 import Footer from './components/Footer.jsx'
+import useScrollReveal from './hooks/useScrollReveal.jsx'
 
 const ClickMe = () => {
+  useScrollReveal()
+
   return(
     <>
    <Header />

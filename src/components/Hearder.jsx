@@ -30,28 +30,28 @@ const Header = () => {
       </div>
       <hr />
       {/* md display */}
-      <div className="md:hidden 2xl-container mx-auto slide-in-left">
+      <div className="md:hidden 2xl-container mx-auto ">
         <div className="w-[90%] mx-auto">
-          <div className="flex justify-between gap-2 mt- mb-3">
+          <div className="flex justify-between gap-2 mt-3 mb-3">
             <h1 className="text-2xl font-[Roboto] text-white scale-in">Gowtham</h1>
             <img src="https://ik.imagekit.io/8wxvbajv2/IMG-20251021-WA0037.jpg" alt="" className="w-[50px] h-[50px] object-cover rounded-2xl icon-bounce" />
           </div>
           <div className="block md:hidden">
-            <div className="bg-gradient-to-r from-[#2dd4bf] to-[#1f2937] shadow-2xl rounded-3xl p-2 fixed bottom-10 w-[95%] right-0 left-3 fade-in-up">
-              <ul className="blink-1 text-[18px] font-[Roboto] flex justify-around items-end p-1 stagger-child">
-                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-1 icon-bounce">
+            <div className="fixed bottom-4 left-3 right-3 z-50 mx-auto max-w-[95%] rounded-3xl bg-gradient-to-r from-[#2dd4bf]/95 to-[#1f2937]/95 shadow-2xl p-3 fade-in-up stagger-child">
+              <ul className="blink-1 text-[15px] font-[Roboto] flex flex-wrap justify-around  items-center  grid grid-cols-5">
+                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-2 icon-bounce">
                   <a href="#Hero">Home</a>
                 </li>
-                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-1 icon-bounce">
+                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-2 icon-bounce">
                   <a href="#About">About</a>
                 </li>
-                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-1 icon-bounce">
+                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-2 icon-bounce">
                   <a href="#MyProject">Projects</a>
                 </li>
-                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-1 icon-bounce">
+                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-2 icon-bounce">
                   <a href="#Skill">Resume</a>
                 </li>
-                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-1 icon-bounce">
+                <li className="hover:text-white hover:bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-[#9ca3af] via-[#4b5563] to-[#1e40af] hover:rounded-lg py-1 px-2 icon-bounce">
                   <a href="#Footer">Contact</a>
                 </li>
               </ul>

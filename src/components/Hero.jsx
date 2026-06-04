@@ -3,7 +3,7 @@ const Hero = () => {
   return(
     <>
       {/* hero sec */}
-      <div className="puff-in-center flex justify-around p-3 ml-5 mt-5 fade-in-up" id="Hero">
+      <div className="flex justify-around p-3 ml-5 mt-5 fade-in-up" id="Hero">
         <div className="w-fit ml-2 justify-center items-center stagger-child">
           <span className="text-[50px] text-white scale-in">Hello! I'm Gowtham MERN Stack Developer</span>
           <br />
