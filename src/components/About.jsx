@@ -8,7 +8,7 @@ const About = () => {
           <div className="">
             <h1 className="text-3xl font-[Roboto] text-white ml-8 mb-5 scale-in">About Me ..</h1>
             <br />
-            <p className="font-[Roboto] text-xl w-fit h-fit overflow-hidden bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text fade-in-up">
+            <p className="font-[Roboto] text-xl w-fit h-fit overflow-hidden bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text fade-in-up ">
               Hi I am Gowtham B ,a passionate{" "}
               <span className="font-mono text-3xl text-[#7ca5dd] scale-in">MERN Full Stack Developer And UI/UX Designer</span>{" "}
               who has completed a professional internship in full stack development.

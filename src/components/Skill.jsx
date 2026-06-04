@@ -4,7 +4,7 @@ const Skill = () => {
     <>
   {/* my section  */}
   <div
-    className=" puff-in-center 2xl-container mx-auto
+    className=" mt-20 puff-in-center 2xl-container mx-auto
    bg-gradient-to-r from-[rgb(15,23,42)]  to-[#334155] ml-5 mr-5 md:ml-20 md:mr-20 py-10  mt-10 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-3xl " id="Skill"
   >
     <div className="w-[95%] mx-auto py-8  ">
@@ -27,7 +27,7 @@ const Skill = () => {
         </div>
         <p className="font-mono text-[#7ca5dd] text-2xl">Summary</p>
         <p className="font-[Roboto] text-lg  mt-5 bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text ">
-          I am Gowtham B, a MERN Stack Developer with a passion for creating
+         <span className="ml-5 ">I am Gowtham B,</span>  a MERN Stack Developer with a passion for creating
           dynamic and responsive web applications. With a strong foundation in
           MongoDB, Express.js, React.js, and Node.js, I specialize in building
           full-stack solutions that deliver seamless user experiences. My
@@ -149,7 +149,7 @@ const Skill = () => {
           </h1>
         </div>
         <center>
-       <a href="https://ik.imagekit.io/8wxvbajv2/Gowtham_Resume%20(1).pdf" download ><p className="py-2 px-3 w-fit text-center bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl
+       <a href="https://ik.imagekit.io/8wxvbajv2/Gowtham_Resume%20(4).pdf" download ><p className="py-2 px-3 w-fit text-center bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl
          " >Download Resume </p></a></center>
       </div>
     </div>

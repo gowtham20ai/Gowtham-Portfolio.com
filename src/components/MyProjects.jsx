@@ -51,7 +51,7 @@ const MyProjects = () => {
   return (
     <>
       {/* my projects */}
-      <h1 className="text-3xl font-[Roboto] text-white ml-20 mt-12 scale-in fade-in-up" id="MyProjects">
+      <h1 className="text-3xl font-[Roboto] text-white ml-5 mt-12 scale-in fade-in-up" id="MyProjects">
         My Projects ..
       </h1>
       <div className="2xl-container mx-auto ml-5 mr-5 fade-in-up" id="MyProject">
@@ -68,6 +68,7 @@ const MyProjects = () => {
                 t4={items.t4}
                 site={items.site}
                 github={items.github}
+                className= "grid grid-cols-4 items-stretch fade-in-up"
               />
             </div>
           ))}

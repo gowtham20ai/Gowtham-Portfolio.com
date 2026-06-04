@@ -16,8 +16,8 @@ const MyProjects1 = ({image,title,description,t1,t2,t3,t4,site,github}) => {
                     <h1 className="font-mono text-xl text-[#25bda8] p-3 scale-in">{title}</h1>
                     <p className="fade-in-up text-sm leading-relaxed">{description}</p>
                 </div>
-                <div className="mt-5 stagger-child">
-                    <div className="flex flex-wrap justify-between gap-2">
+                <div className="mt-5 -ml-3 stagger-child">
+                    <div className="flex justify-around gap-1">
                         <p className="bg-slate-500 py-1 px-2 w-fit bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 font-[Roboto] rounded-2xl card-hover">
                             {t1}
                         </p>
